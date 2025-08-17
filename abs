@@ -1,0 +1,25 @@
+package Day9;
+abstract class bike 
+{
+	abstract void run();
+}
+class honda extends bike
+{
+	void run()
+	{
+		System.out.println("Vehicle");
+	}
+}
+    
+public class abs {
+
+	public static void main(String[] args) {
+	bike obj = new honda();
+	obj.run();
+	
+
+	}
+
+}
+
+a
