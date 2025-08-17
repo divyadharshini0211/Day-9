@@ -1,0 +1,19 @@
+package Day9;
+class bird
+{
+	String color="purple";
+	void eat()
+	{
+		System.out.println("Eating");
+	}
+}
+class dog extends bird
+{
+	void bark()
+	{
+		
+	}
+}
+public class Animal {
+
+}
